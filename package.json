@@ -1,6 +1,9 @@
 {
-  "name": "root",
+  "name": "satanet",
   "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
   "workspaces": [
     "apps/*",
     "libs/*"
@@ -8,5 +11,8 @@
   "devDependencies": {
     "lerna": "^7.3.0"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "husky": "^8.0.3"
+  }
 }
