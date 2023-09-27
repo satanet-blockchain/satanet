@@ -1,0 +1,14 @@
+{
+  "name": "@satanet/utils",
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "tsc -w"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@nestjs/common": "^10.2.6",
+    "colors": "^1.4.0",
+    "typescript": "^5.2.2"
+  }
+}

@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "build": "lerna run build --stream",
+    "dev": "lerna run start:dev --stream"
   },
   "workspaces": [
     "apps/*",

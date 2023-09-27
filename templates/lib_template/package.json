@@ -1,0 +1,12 @@
+{
+  "name": "@satanet/template",
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
