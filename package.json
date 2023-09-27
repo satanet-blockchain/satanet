@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  },
+  "packageManager": "yarn@3.6.3"
+}
