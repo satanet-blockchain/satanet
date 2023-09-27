@@ -2,17 +2,18 @@
   "name": "satanet",
   "private": true,
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "workspaces": [
     "apps/*",
     "libs/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3",
     "lerna": "^7.3.0"
   },
-  "packageManager": "yarn@3.6.3",
-  "dependencies": {
-    "husky": "^8.0.3"
-  }
+  "packageManager": "yarn@3.6.3"
 }
